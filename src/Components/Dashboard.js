@@ -10,7 +10,7 @@ import CurrentPageBar from "./CurrentPageBar";
 
 const Dashboard = () => {
   return (
-    <div className="flex flex-col bg-black min-h-screen">
+    <div className="flex flex-col bg-black min-h-screen font-dm-sans">
       {/* Header */}
       <Header />
       <CurrentPageBar pageTitle="Dashboard" />
@@ -18,7 +18,7 @@ const Dashboard = () => {
       {/* Main Content */}
       <div className="flex flex-1 overflow-hidden">
         {/* Sidebar */}
-        <aside className="bg-gradient-to-r from-black w-64 bg-zinc-900 text-white p-4">
+        <aside className="bg-gradient-to-l from-zinc-900 w-64 bg-black text-white p-4">
           <h2 className=" font-bold  text-xs mb-4 ml-3 mt-2 text-rose-500 uppercase">
             Quick Links
           </h2>
@@ -84,7 +84,7 @@ const Dashboard = () => {
         </aside>
 
         {/* Content Area */}
-        <main className="flex-1 p-6 bg-zinc-800">
+        <main className="flex-1 p-6 bg-black">
           {/* Major Credits, CGPA, and Semester Boxes */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Major Credits Box */}
@@ -104,7 +104,7 @@ const Dashboard = () => {
                 <FaTachometerAlt className="text-3xl" />
               </div>
               <div>
-                <p className="text-4xl font-bold">3.75</p> {/* Example value */}
+                <p className="text-4xl font-bold">8.75</p> {/* Example value */}
                 <h2 className=" font-sm mb-2 text-gray-300">Major CGPA</h2>
               </div>
             </div>

@@ -6,24 +6,24 @@ import { Link } from 'react-router-dom'; // For navigation if needed
 
 const Header = () => {
     return (
-        <header className=" bg-zinc-800 text-white shadow-lg p-4 flex items-center justify-between w-full z-10 mt-7">
+        <header className=" bg-zinc-900 text-white shadow-lg p-4 flex items-center justify-between w-full z-10 mt-7 font-dm-sans">
             {/* Logo */}
             <div className="flex items-center space-x-2">
                 
-                <span className="text-xl font-bold">Your Institute</span>
+                <span className="text-xl font-bold ">Your Institute</span>
             </div>
 
             {/* Navigation */}
             <nav className="flex-1 mx-8 flex justify-center space-x-6">
-                <Link to="/institute" className="flex items-center space-x-2 cursor-pointer hover:text-indigo-200 transition-colors">
+                <Link to="/institute" className="flex items-center space-x-2 cursor-pointer hover:text-rose-600 transition-colors">
                     <AiOutlineHome className="text-2xl" />
                     <span className="text-lg font-medium">Institute</span>
                 </Link>
-                <Link to="/academic" className="flex items-center space-x-2 cursor-pointer hover:text-indigo-200 transition-colors">
+                <Link to="/academic" className="flex items-center space-x-2 cursor-pointer hover:text-rose-600 transition-colors">
                     <AiOutlineBook className="text-2xl" />
                     <span className="text-lg font-medium">Academic</span>
                 </Link>
-                <Link to="/campus" className="flex items-center space-x-2 cursor-pointer hover:text-indigo-200 transition-colors">
+                <Link to="/campus" className="flex items-center space-x-2 cursor-pointer hover:text-rose-600 transition-colors">
                     <AiOutlineApartment className="text-2xl" />
                     <span className="text-lg font-medium">Campus</span>
                 </Link>

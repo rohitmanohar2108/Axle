@@ -4,7 +4,7 @@ import { FaInfoCircle } from 'react-icons/fa';
 
 const CurrentPageBar = ({ pageTitle }) => {
   return (
-    <div className="bg-gradient-to-b from-black bg-zinc-900 text-white p-4 border-b border-gray-700">
+    <div className="bg-gradient-to-b from-black bg-zinc-900 text-white p-4 border-b border-gray-700 font-dm-sans">
       <div className="flex items-center justify-between">
         {/* Page Title with Horizontal Line */}
         <div className="flex items-center space-x-4">
