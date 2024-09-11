@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom'; // For navigation if needed
 
 const Header = () => {
     return (
-        <header className="bg-black text-white shadow-lg p-4 flex items-center justify-between w-full z-10 border-b border-gray-200">
+        <header className=" bg-zinc-800 text-white shadow-lg p-4 flex items-center justify-between w-full z-10 mt-7">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-                <img src="/path-to-your-logo.png" alt="Logo" className="w-10 h-10 rounded-full" />
+                
                 <span className="text-xl font-bold">Your Institute</span>
             </div>
 
